@@ -4,8 +4,7 @@ Achieved upto 95% accuracy using OpenCV's Deep Neural Network model to detect fa
 
 # Usage
 1. Detect Age and Gender from an Image.
- 
-To detect age and gender from an image, execute the following command:
+ To detect age and gender from an image, execute the following command:
 
 ```bash
 python gender_age.py --input path/to/image.jpg --output path/to/save/detected/images
@@ -13,8 +12,7 @@ python gender_age.py --input path/to/image.jpg --output path/to/save/detected/im
 ---
 
 2. Detect Age and Gender from a Video.
-   
-To detect age and gender from an video, execute the following command:
+   To detect age and gender from an video, execute the following command:
 
 ```bash
 python gender_age.py --input path/to/video.mp4 --output path/to/save/detected/videos
@@ -22,8 +20,7 @@ python gender_age.py --input path/to/video.mp4 --output path/to/save/detected/vi
 ---
   
 3. Detect Age and Gender from a Live Webcam Feed.
-   
-To detect age and gender from a live webcam processing, run this command:
+   To detect age and gender from a live webcam processing, run this command:
 
 ```bash
 python gender_age.py --output ./results
