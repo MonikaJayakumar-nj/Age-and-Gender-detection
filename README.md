@@ -6,15 +6,18 @@ Usage
 1. Detect Age and Gender from an Image
 To detect age and gender from an image, execute the following command:
 
-'''python gender_age.py --input path/to/image.jpg --output path/to/save/detected/images
+```bash
+python gender_age.py --input path/to/image.jpg --output path/to/save/detected/images
 
 3. Detect Age and Gender from a Video
 To detect age and gender from a video, execute the following command:
 
+```bash
 python gender_age.py --input path/to/video.mp4 --output path/to/save/detected/videos
 
 3. Detect Age and Gender from a Live Webcam
 To detect age and gender from a live webcam feed, execute the following command:
 
+```bash
 python gender_age.py --output ./results
 
